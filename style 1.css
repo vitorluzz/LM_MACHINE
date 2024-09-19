@@ -1,0 +1,122 @@
+body{
+    font-family: 'Poppins', sans-serif; 
+    background: linear-gradient( to right, #241d57 0%, #3b2f6b 40%, #FAA613 100%);
+    }
+.onda_header{
+    display: flex;
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+}
+
+.container_titulo{
+display: flex;
+margin-left: 1vw;
+    font-weight: bold;
+}
+.h1_titulo{
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom:0.5vw;
+    cursor: pointer;
+}
+
+.nav_titulo{
+    color: white;
+    position: absolute;
+    top: 7vw;
+    left: 2vw;
+    color: rgba(0, 0, 0, 0.74);
+}
+
+.span_titulo{
+    color: rgba(0, 0, 0, 0.74);
+    margin-top: 3.4vw;
+    margin-left: 0.2vw;
+    font-size: 1.4vw;
+}
+
+
+
+.container_all{
+
+    display: flex;
+    margin-top: 1vw;
+    justify-content: space-between;
+    height: 33vw;
+padding: 0.5vw;
+}
+
+input{
+    width: 93%;
+    height: 4.2vw;
+    border-radius: 0.6vw;
+    background-color: rgb(224, 224, 224);   
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border: none;
+    color: rgba(0, 0, 0, 0.849);
+}
+button{
+    margin-top: 1vw;
+    width: 93%;
+    height: 5vw;
+    background-color: #201b2f;
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+    border-radius: 1vw;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border: none;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2vw;
+}
+.container_decimal{
+    background-color: rgb(106, 100, 123, 0.9);
+    color: white;
+    border-radius: 0.5vw;
+    padding-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    width: 23.5%;
+ 
+}
+.container_hexa{
+    
+    background-color: rgb(106, 100, 123, 0.9);
+color: white;
+border-radius: 1vw;
+padding-left: 1vw;
+display: flex;
+flex-direction: column;
+width: 23.5%;
+}
+.container_octal{
+    background-color: rgb(106, 100, 123, 0.9);
+color: white;
+border-radius: 1vw;
+padding-left: 1vw;
+display: flex;
+flex-direction: column;
+width: 23.5%;
+
+}
+.container_binario{
+    background-color: rgb(106, 100, 123, 0.9);
+color: white;
+border-radius: 1vw;
+padding-left: 1vw;
+display: flex;
+flex-direction: column;
+width: 23.5%;
+}
+.onda_footer{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+}
